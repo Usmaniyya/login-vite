@@ -1,13 +1,17 @@
 import { useState } from 'react'
 import './App.css';
-import Login from './components/Login';
+import Nav from './components/Nav';
+import Header from './components/Header';
+import Section from './components/Section';
+
 
 function App() {
 
   return (
-    <div className="App">
-      <h1>Welcome Back!</h1>
-        <Login />
+    <div>
+      <Nav />
+      <Header />
+      <Section />
     </div>
   )
 }
